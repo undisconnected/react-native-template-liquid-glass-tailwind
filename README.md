@@ -23,7 +23,8 @@ Versions :
    ```
 
 2. Open app.json and update expo>name, expo>slug, expo>scheme and update the icon and splash if needed.
-3. Start the app
+3. Open Package.json and change the name accordingly to you project
+4. Start the app
 
    ```bash
    npx expo start
