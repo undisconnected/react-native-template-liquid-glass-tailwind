@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "binaural",
-    "slug": "binaural",
+    "name": "Liquid Glass Tab Bar Template",
+    "slug": "liquid-glass-tab-bar-template",
     "version": "1.0.0",
+    "scheme": "liquid-glass-tab-bar-template",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,7 +25,10 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"]
   }
 }
